@@ -1,1 +1,36 @@
 /* your code */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0
+	margin: 0;
+	padding: 0;
+
+}
+h1 {
+	text-align: center;
+	text-color:gray;
+	margin: 20px 0;
+}
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	width: 80%;
+	background-color: white;
+	border: 2px  solid gray;
+	border-radius: 10px;
+}
+th, td {
+/*            padding: 10px; */
+	text-align: center;
+}
+th {
+	background-color: #3498db;
+	color: white;
+/*             border-right: 1px solid white; */
+}
+tr:nth-child(even) {
+	background-color: #bdbdb9;
+}
+tr:hover {
+	background-color: #d4e6f1;
+}
